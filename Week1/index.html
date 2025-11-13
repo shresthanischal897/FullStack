@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pancake Recipe</title>
+
+  <!-- Internal CSS -->
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #fff7f0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ffb347, #ffcc33);
+      padding: 2rem 1rem;
+      text-align: center;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      gap: 2rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff9800;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #ff9800;
+      border-bottom: 2px solid #ffcc33;
+      display: inline-block;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      background-color: #fff6d5;
+      border-left: 5px solid #ff9800;
+      padding: 1rem;
+      margin: 2rem 0;
+      border-radius: 8px;
+    }
+
+    #contact {
+      margin-top: 2rem;
+    }
+
+    form {
+      margin-top: 1rem;
+    }
+
+    label {
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    input[type="text"] {
+      border: 2px solid #ccc;
+      padding: 10px;
+      border-radius: 6px;
+      width: 100%;
+      max-width: 350px;
+      transition: border-color 0.3s;
+    }
+
+    input[type="text"]:focus {
+      border-color: #ff9800;
+      outline: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #ffcc33;
+      color: #fff;
+      margin-top: 2rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🥞 Fluffy Pancake Recipe</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#ingredients">Ingredients</a></li>
+      <li><a href="#instructions">Instructions</a></li>
+      <li><a href="#contact">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>1 cup all-purpose flour</li>
+        <li>2 tbsp sugar</li>
+        <li>2 tsp baking powder</li>
+        <li>1 cup milk</li>
+        <li>1 egg</li>
+        <li>2 tbsp melted butter</li>
+      </ul>
+    </section>
+
+    <section id="instructions">
+      <h2>Instructions</h2>
+      <ol>
+        <li>Mix all dry ingredients in a bowl.</li>
+        <li>Whisk wet ingredients separately.</li>
+        <li>Combine and stir until smooth.</li>
+        <li>Cook on a greased pan until golden brown on both sides.</li>
+      </ol>
+    </section>
+
+    <aside class="highlight">
+      <h3>🍯 Cooking Tip</h3>
+      <p>Add a few drops of vanilla essence or cinnamon for extra flavor!</p>
+    </aside>
+
+    <section id="contact">
+      <h2>Feedback</h2>
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pancake Paradise | All rights reserved</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "name": "yajju/workshop8",
+    "description": "Student CRUD Application with MVC and Blade",
+    "authors": [
+        {
+            "name": "Yazoo555",
+            "email": "yazusth@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "jenssegers/blade": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
